@@ -44,4 +44,5 @@ example
 /android
 
 # VS Folders
-
+.claude
+.vscode
