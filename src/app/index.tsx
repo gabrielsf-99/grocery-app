@@ -1,11 +1,11 @@
 import { Text, View, StyleSheet } from "react-native";
+import { Image } from "expo-image";
 import { Link } from "expo-router";
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
-      <Link href={"/about"}>About screen link</Link>
+      <Text className="text-red-500 text-4xl bg-purple-500">Edit src/app/index.tsx to edit this screen.</Text>   
     </View>
   );
 }
